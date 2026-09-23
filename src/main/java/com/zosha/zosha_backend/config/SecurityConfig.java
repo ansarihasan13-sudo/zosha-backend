@@ -53,12 +53,6 @@ public class SecurityConfig {
                         "http://localhost:5176"
                 )
         );
-//        configuration.setAllowedOrigins(
-//                List.of(
-//                        "http://localhost:5173",
-//                        "http://localhost:5176"
-//                )
-//        );
 
         configuration.setAllowedMethods(
                 List.of(
@@ -147,8 +141,8 @@ public class SecurityConfig {
                                 "/**"
                         ).permitAll()
 
-                        // Everything else requires JWT
-                        .anyRequest().authenticated()
+                        // TEMPORARY TEST
+                        .anyRequest().permitAll()
                 )
 
                 .addFilterBefore(
