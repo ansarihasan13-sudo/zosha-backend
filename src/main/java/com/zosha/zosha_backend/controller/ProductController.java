@@ -12,7 +12,8 @@ import java.util.List;
 @CrossOrigin(
         origins = {
                 "http://localhost:5173",
-                "http://localhost:5176"
+                "http://localhost:5176",
+                "https://zosha-frontend-production.up.railway.app"
         }
 )
 public class ProductController {
