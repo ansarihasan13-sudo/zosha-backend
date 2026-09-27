@@ -50,7 +50,8 @@ public class SecurityConfig {
                 List.of(
                         "http://localhost:5177",
                         "http://localhost:5173",
-                        "http://localhost:5176"
+                        "http://localhost:5176",
+                        "https://zosha-frontend-production.up.railway.app"
                 )
         );
 
